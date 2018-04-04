@@ -1,0 +1,62 @@
+header{
+    width: 100vw;
+    height: 60px;
+    background: #fff;
+    border-bottom: 3px solid black;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    transition: all 0.3s ease-in;
+    position: fixed;
+    z-index: 5;
+}
+
+.branding,.funcs{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    background: url("../../assets/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.logotype{
+    background: url("../../assets/logotype.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.about-btn{
+    font-weight: 900;
+    color: #666666;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.about-btn:hover{
+    background: #ddd;
+}
+
+.signup-btn{
+    font-weight: 900;
+    background: #22b573;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.signup-btn:hover{
+    color: #000000;
+}

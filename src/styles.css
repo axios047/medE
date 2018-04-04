@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+/* #29abe2
+#0071bc
+#22b573 */
+
+body{
+    margin: 0;
+    width: 100vw;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+

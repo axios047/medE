@@ -1,0 +1,124 @@
+.main-hero{
+    width: 100vw;
+    height: 500px;
+    background:url("https://source.unsplash.com/IJ9EYLIJDLA");
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+.main-hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6)
+}
+
+.content{
+    position: absolute;
+    top: 60%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 900;
+    filter: drop-shadow(0px 0px 15px #000000);
+}
+
+p{
+    font-size: 16px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup-primary{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    background: #fff;
+    padding: 8px 22px;
+    border-radius: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.knowmore-btn{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 22px;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.knowmore-btn:hover{
+    background: #198c58;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.serve-wrap{
+    margin: 15px;
+    display: grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+}
+
+.serve-card{
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px solid black;
+    box-shadow: 7px 7px 0 0px #000000;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.serve-card:hover{
+    box-shadow: 10px 10px 0 0px #000000;
+    transform: translateX(-3px);
+    transform: translateY(-3px);
+}
+
+.dpic{
+    widows: 100%;
+    height: 200px;
+    background: cornflowerblue;
+}
+
+.heading{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8px 15px;
+}
+.desc{
+    font-size: 18px;
+    margin: 8px 15px;
+}
+
+.lm-btn{
+    margin: 12px 15px;
+    color: #fff;
+    background: cornflowerblue;
+    padding: 5px 10px;
+    display: inline;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 8px;
+    cursor: pointer;
+}

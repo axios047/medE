@@ -4,11 +4,24 @@
   <meta charset="utf-8">
   <title>MedE</title>
   <base href="/">
+  
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jlong/css-spinners/master/css/spinners.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>
+      <nav 
+      style="background-color: #673ab7; height: 56px; width: 100%">
+    </nav>
+      <span class="refreshing-loader">Loading&#8230;</span>
+  </app-root>
+  <noscript>
+      <h3 style="color: #673ab7; font-family: Helvetica; margin: 2rem;">
+          Sorry, but app is not available without javascript
+      </h3>
+    </noscript>
 </body>
 </html>
